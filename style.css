@@ -1,0 +1,129 @@
+@charset "utf-8";
+.container-fluid {
+    background-image: -webkit-linear-gradient(270deg,rgba(28,192,202,1.00) 54.72%,rgba(250,205,75,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(28,192,202,1.00) 54.72%,rgba(250,205,75,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(28,192,202,1.00) 54.72%,rgba(250,205,75,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(28,192,202,1.00) 54.72%,rgba(250,205,75,1.00) 100%);
+}
+.container-fluid .container .navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-image: -webkit-linear-gradient(90deg,rgba(188,242,249,1.00) 0%,rgba(0,171,172,1.00) 100%);
+    background-image: -moz-linear-gradient(90deg,rgba(188,242,249,1.00) 0%,rgba(0,171,172,1.00) 100%);
+    background-image: -o-linear-gradient(90deg,rgba(188,242,249,1.00) 0%,rgba(0,171,172,1.00) 100%);
+    background-image: linear-gradient(0deg,rgba(188,242,249,1.00) 0%,rgba(0,171,172,1.00) 100%);
+}
+.container-fluid .container footer {
+    background-image: -webkit-linear-gradient(270deg,rgba(232,207,39,1.00) 0%,rgba(232,207,39,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(232,207,39,1.00) 0%,rgba(232,207,39,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(232,207,39,1.00) 0%,rgba(232,207,39,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(232,207,39,1.00) 0.00%,rgba(232,207,39,1.00) 100.00%);
+    color: rgba(0,0,0,1.00);
+}
+
+.navbar-nav.mr-auto .nav-item .nav-link {
+    color: rgba(2,45,41,1.00);
+}
+.container .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-toggler {
+    background-color: rgba(21,118,121,1.00);
+}
+.card.col-md-4.col-lg-12 .card-body .btn.btn-primary {
+    background-image: -webkit-linear-gradient(270deg,rgba(0,113,255,1.00) 0%,rgba(28,192,202,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(0,113,255,1.00) 0%,rgba(28,192,202,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(0,113,255,1.00) 0%,rgba(28,192,202,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,113,255,1.00) 0%,rgba(28,192,202,1.00) 100%);
+}
+
+
+
+
+.container {
+  width:100%;
+  margin:0 auto;
+  position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+  background:#F9F9F9;
+  padding:25px;
+  margin:50px 0;
+}
+
+#contact h3 {
+  color: #F96;
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#contact h4 {
+  margin:5px 0 15px;
+  display:block;
+  font-size:13px;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+  width:100%;
+  border:1px solid #CCC;
+  background:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+  -webkit-transition:border-color 0.3s ease-in-out;
+  -moz-transition:border-color 0.3s ease-in-out;
+  transition:border-color 0.3s ease-in-out;
+  border:1px solid #AAA;
+}
+
+#contact textarea {
+  height:100px;
+  max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+  cursor:pointer;
+  width:20%;
+  border:none;
+  background:#0CF;
+  color:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+  font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+  background:#09C;
+  -webkit-transition:background 0.3s ease-in-out;
+  -moz-transition:background 0.3s ease-in-out;
+  transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+  outline:0;
+  border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
